@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_drawable"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <RadioGroup
+            android:id="@id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="10.0dip"
+            android:visibility="visible" >
+
+            <RadioButton
+                android:id="@id/pm_project_pending"
+                style="@style/radio_style_left"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/score_title_bg_left_selector"
+                android:checked="true"
+                android:text="未审核"
+                android:textColor="@color/score_title_font_color_selector"
+                android:textSize="@dimen/font_small" />
+
+            <RadioButton
+                android:id="@id/pm_project_completed"
+                style="@style/radio_style_center"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/score_title_bg_center_selector"
+                android:checked="false"
+                android:text="已审核"
+                android:textColor="@color/score_title_font_color_selector"
+                android:textSize="@dimen/font_small" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/default_line_color" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

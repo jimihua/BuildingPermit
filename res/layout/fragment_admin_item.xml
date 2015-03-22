@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="10.0dip"
+    android:background="@color/default_item_color"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/default_line_color" />
+
+    <TextView
+        android:id="@id/pm_admin_title"
+        style="@style/myshop_title_font_style"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/myshop_detail_item_h"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:gravity="center_vertical"
+        android:text="临安市农发办2014年土地治理项目" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:background="@color/default_line_color" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right" >
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingTop="@dimen/myshop_detail_item_padding" >
+
+            <TextView
+                android:id="@id/mmp200"
+                style="@style/myshop_title_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="业主" />
+
+            <TextView
+                android:id="@id/pm_admin_owner"
+                style="@style/myshop_title_info_font_small_style"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="@dimen/myshop_detail_item_padding_left_small"
+                android:text="临安市农业综合开发办公室" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/myshop_detail_item_padding_small" >
+
+            <TextView
+                android:id="@id/textView11"
+                style="@style/myshop_title_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分公司" />
+
+            <TextView
+                android:id="@id/pm_admin_company"
+                style="@style/myshop_title_info_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView11"
+                android:layout_toRightOf="@id/textView11"
+                android:paddingLeft="@dimen/myshop_detail_item_padding_left_small"
+                android:text="临安分公司" />
+
+            <TextView
+                android:id="@id/textView12"
+                style="@style/myshop_title_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView11"
+                android:layout_marginTop="@dimen/myshop_detail_item_padding_small"
+                android:text="" />
+
+            <TextView
+                android:id="@id/nearby_express_good_weight_info"
+                style="@style/myshop_title_info_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView12"
+                android:layout_toRightOf="@id/textView12"
+                android:paddingLeft="@dimen/myshop_detail_item_padding_left_small"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingBottom="@dimen/myshop_detail_item_padding"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/myshop_detail_item_padding_small" >
+
+            <TextView
+                android:id="@id/textView13"
+                style="@style/myshop_title_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类型" />
+
+            <TextView
+                android:id="@id/pm_admin_type"
+                style="@style/myshop_title_info_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/textView13"
+                android:paddingLeft="@dimen/myshop_detail_item_padding_left_small"
+                android:text="水利" />
+
+            <TextView
+                android:id="@id/textView14"
+                style="@style/myshop_title_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView13"
+                android:layout_marginTop="@dimen/myshop_detail_item_padding_small"
+                android:paddingRight="@dimen/myshop_detail_item_padding_left_small"
+                android:text="" />
+
+            <TextView
+                android:id="@id/nearby_express_good_traffic_info"
+                style="@style/myshop_title_info_font_small_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView14"
+                android:layout_toRightOf="@id/textView14"
+                android:text="" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/default_line_color" />
+
+</LinearLayout>

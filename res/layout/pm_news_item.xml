@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Color_A"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/PaddingDistance_B" >
+
+        <TextView
+            android:id="@id/msg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/notice_unread"
+            android:drawablePadding="@dimen/PaddingDistance_A"
+            android:text="公告 2件"
+            android:textColor="@color/color_f"
+            android:textSize="@dimen/FontSize_B" />
+
+        <TextView
+            android:id="@id/msg_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="2015.3.12"
+            android:textColor="@color/color_j" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/msg_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/PaddingDistance_B"
+        android:textColor="@color/color_f"
+        android:visibility="gone" />
+
+</LinearLayout>

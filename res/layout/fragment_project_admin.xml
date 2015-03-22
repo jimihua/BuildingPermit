@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zjnu.buildpermit.view.XListView
+        android:id="@id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none" >
+    </com.zjnu.buildpermit.view.XListView>
+
+    <TextView
+        android:id="@id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dip"
+        android:text="您暂时没有需要审核的项目"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</LinearLayout>

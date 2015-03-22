@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_top" />
+
+<!--     <include layout="@layout/pm_express_top" /> -->
+
+    <ListView
+        android:id="@id/pm_exprcv_lv_kuaidi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        />
+
+    <TextView
+        android:id="@id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dip"
+        android:gravity="center_horizontal"
+        android:text="您暂时没有新的快递"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</LinearLayout>

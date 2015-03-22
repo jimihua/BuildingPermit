@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="default_item_color_gray_draw">#ffcccccc</item>
+    <item type="drawable" name="defalut_all_bg_drawables">#fff2f2f2</item>
+    <item type="drawable" name="defalut_all_bg_drawable">#fff1f0f0</item>
+    <item type="drawable" name="default_item_drawable">#ffffffff</item>
+    <item type="drawable" name="press_item_drawable">#ffe5e5e4</item>
+    <item type="drawable" name="bg_drawable">#fff1f2f3</item>
+    <item type="drawable" name="bg_drawables">#ffffa07a</item>
+    <item type="drawable" name="mmp_new">#ffe5e5e4</item>
+    <item type="drawable" name="cusor_drawable">#ffff672f</item>
+    <item type="drawable" name="common_btn_normal">#ffff672f</item>
+    <item type="drawable" name="list_hightlit">#fff2f2f2</item>
+    <item type="drawable" name="trasparent">#00000000</item>
+    <item type="drawable" name="rrkd_yellow">#ffff4b21</item>
+    <item type="drawable" name="rrkd_green">#ff7cde78</item>
+    <item type="drawable" name="orange">@color/orange_color</item>
+    <item type="drawable" name="white">#ffffffff</item>
+</resources>
